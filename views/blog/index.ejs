@@ -1,0 +1,15 @@
+<%- include('../partials/header') %>
+
+<h1><%= title %></h1>
+<p>Witamy na naszym blogu. Poniżej znajdziesz najnowsze posty.</p>
+
+<ul>
+  <% posts.forEach(function(post) { %>
+    <li>
+      <a href="/blog/<%= post.id %>"><%= post.title %></a>
+      <p><%= post.summary %></p>
+    </li>
+  <% }); %>
+</ul>
+
+<%- include('../partials/footer') %>

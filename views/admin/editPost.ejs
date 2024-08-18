@@ -1,0 +1,22 @@
+<%- include('../partials/header') %>
+
+<h1><%= title %></h1>
+
+<form action="/admin/edit/<%= post.id %>" method="POST">
+  <label for="title">Tytuł:</label>
+  <input type="text" id="title" name="title" value="<%= post.title %>" required>
+  
+  <label for="summary">Podsumowanie:</label>
+  <textarea id="summary" name="summary" required><%= post.summary %></textarea>
+  
+  <label for="content">Treść:</label>
+  <textarea id="content" name="content" required><%= post.content %></textarea>
+  
+  <button type="submit">Zapisz zmiany</button>
+</form>
+
+<form action="/admin/delete/<%= post.id %>" method="POST">
+  <button type="submit" style="background-color:red;">Usuń Post</button>
+</form>
+
+<%- include('../partials/footer') %>

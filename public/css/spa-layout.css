@@ -1,0 +1,47 @@
+/* Przykładowe style zaadaptowane z layoutu CodePen */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    padding: 1em;
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+#app {
+    padding: 2em;
+    min-height: 80vh;
+    background-color: #f4f4f4;
+}
+
+/* Specyficzne style zaadaptowane z CodePen */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}

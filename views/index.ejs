@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WentTeam - Professional Technical Systems</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/services.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="/js/script.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    </script>
+</head>
+<body>
+
+    <header class="sticky-nav">
+        <div class="logo-container">
+            <img src="/images/went_wiatrak.png" alt="WentTeam Logo" class="logo">
+        </div>
+        <nav class="menu-content">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+                <li><a href="/services">Usługi</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <i class="fas fa-search search-icon"></i>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="kinetic-container">
+            <h1 class="kinetic-text">Advanced Solutions for Modern Businesses</h1>
+        </div>
+        <a href="#services" class="cta-button pulse">Dowiedz się więcej</a>
+    </section>
+
+    <!-- Dodanie sekcji z efektem Codepen -->
+    <section class="scroll-container">
+        <div class="scroll">
+            <div class="mask"></div>
+            <div class="panel">
+                <div class="content">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>Consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="content">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>Consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="content">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>Consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Koniec sekcji z efektem Codepen -->
+
+    <section id="services" class="services-section">
+        <h2>Specjalistyczne Usługi Techniczne</h2>
+        <div class="services-grid">
+            <div id="ventilation" class="service-column service-block">
+                <img src="/images/ventilation.png" alt="Ventilation" class="service-image">
+                <h3>Instalacje i Systemy Techniczne</h3>
+                <p><strong>Wentylacja, Chłodnictwo, Klimatyzacja i Hydraulika:</strong> Prace związane z instalacjami wentylacyjnymi, chłodniczymi i hydraulicznymi wymagają nie tylko podstawowych umiejętności instalatorskich, ale także zaawansowanej wiedzy o systemach rekuperacyjnych, klimatyzacyjnych oraz izolacyjnych.</p>
+                <a href="/services/ventilation" class="cta-button">More Info</a>
+            </div>
+            <div id="cooling" class="service-column service-block">
+                <img src="/images/cooling.png" alt="Cooling" class="service-image">
+                <h3>Przemysłowe Usługi Specjalistyczne</h3>
+                <p><strong>Czyszczenie Lakierni i Galwanizerni:</strong> Usługi te są szczególnie wymagające, ponieważ obejmują pracę z zaawansowanymi technologiami powlekania i galwanizacji, które są kluczowe dla wielu procesów przemysłowych.</p>
+                <a href="/services/cooling" class="cta-button">More Info</a>
+            </div>
+            <div id="hydraulics" class="service-column service-block">
+                <img src="/images/hydraulics.png" alt="Hydraulics" class="service-image">
+                <h3>Serwis Oczyszczalni</h3>
+                <p><strong>Oczyszczalnie Ścieków i Gazów:</strong> Serwisowanie i czyszczenie instalacji w oczyszczalniach ścieków i gazów wiąże się z koniecznością posiadania wiedzy chemicznej oraz umiejętności pracy z agresywnymi substancjami.</p>
+                <a href="/services/hydraulics" class="cta-button">More Info</a>
+            </div>
+            <div id="high-altitude" class="service-column service-block">
+                <img src="/images/high-altitude.png" alt="Prace na Wysokości" class="service-image">
+                <h3>Prace na Wysokości</h3>
+                <p><strong>Czyszczenie Konstrukcji:</strong> Prace na wysokości to nie tylko fizyczne czyszczenie konstrukcji, ale również dbałość o bezpieczeństwo.</p>
+                <a href="/services/high-altitude" class="cta-button">More Info</a>
+            </div>
+        </div>
+        <h4>Podsumowanie</h4>
+        <p>Usługi oferowane przez WentTeam są specjalistyczne, ponieważ wymagają od pracowników posiadania dodatkowych kwalifikacji, takich jak certyfikaty bezpieczeństwa, uprawnienia do pracy w trudnych warunkach oraz zaawansowanej wiedzy technicznej.</p>
+    </section>
+
+    <section id="testimonials" class="testimonial-section">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial-slide">
+                <p>"WentTeam provides excellent technical service. Highly recommended!"</p>
+                <span>- John Doe</span>
+            </div>
+            <div class="testimonial-slide">
+                <p>"Quick and professional service. Will definitely return!"</p>
+                <span>- Jane Smith</span>
+            </div>
+            <div class="testimonial-slide">
+                <p>"Dobrze robią niech sie to trzyma. Will definitely return!"</p>
+                <span>- Kowal Smith</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="accordion">
+            <div class="accordion-item">
+                <input type="checkbox" id="faq1">
+                <label for="faq1" class="accordion-title">How does the ventilation system work?</label>
+                <div class="accordion-content">
+                    <p>Our ventilation systems are designed to maintain optimal air quality by ensuring efficient airflow throughout your building.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <input type="checkbox" id="faq2">
+                <label for="faq2" class="accordion-title">How can I book a service?</label>
+                <div class="accordion-content">
+                    <p>You can book a service by contacting us through our website or calling our customer service line.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <h3>WentTeam<span>Logo</span></h3>
+            <p class="footer-links">
+                <a href="/">Strona Główna</a>
+                ·
+                <a href="/services">Usługi</a>
+                ·
+                <a href="#faq-blog">FAQ i Blog</a>
+                ·
+                <a href="#contact">Kontakt</a>
+            </p>
+            <p class="footer-company-name">WentTeam &copy; 2024</p>
+        </div>
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Ulica Przykładowa 123</span> Warszawa, Polska</p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+48 123 456 789</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@wentteam.pl">support@wentteam.pl</a></p>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>O WentTeam</span>
+                WentTeam to lider w branży HVAC, oferujący kompleksowe usługi instalacyjne i serwisowe.
+            </p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
